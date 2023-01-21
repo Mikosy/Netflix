@@ -7,6 +7,13 @@
     padding-top:3%;
     
 }
+.uche{
+    display:none;
+}
+.navbar-nav button a{
+    text-decoration: none;
+    color:white;
+}
 .image{
     background-image: linear-gradient(to top, transparent 0%, black 100%), url(../images/netflix-background-128505-385441-537479.png);
     background-size: cover;
@@ -91,6 +98,29 @@
         height:60px;
         font-size: small;
         font-style: italic;
+    }
+    .uche{
+        display:block;
+    }
+    .uche .offcanvas{
+        width:85%;
+        /* background: linear-gradient(transparent 0%, black 100%); */
+
+    }
+    .uche li a{
+        text-decoration:none ;
+        color:white;
+    }
+    .uche span img{
+        width: 100%;
+        height:40px;
+        /* background-color: #fff; */
+        padding: 10px;
+    }
+
+    .offcanvas-title img{
+        width:auto;
+        height:42px;
     }
 
     .section2 form{
