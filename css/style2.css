@@ -1,3 +1,8 @@
+*{
+    font-family: poppins;
+    font-weight: bold;
+}
+
 .navbar-brand img{
     width:auto;
     height:55px;
@@ -64,8 +69,13 @@ form .user-details .input-box{
     font-weight: 500;
     margin-bottom: 5px;
 }
+::placeholder{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+}
 .user-details .input-box input{
-    height:50px;
+    height:60px;
     width:100%;
     outline:none;
     border-radius: 5px;
@@ -113,7 +123,7 @@ form .small{
 
 }
 form .small a{
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 15px;
 }
 .check-box input[type=checkbox]{
@@ -147,7 +157,7 @@ form .small a{
     .section2{
         margin:0% 10%;
         display:flex;
-        height:100vh;
+        height:105vh;
         justify-content: center;
         align-items: center;
         /* background: linear-gradient(135deg, #89f7fe, #66a6ff); */
